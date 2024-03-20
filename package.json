@@ -1,0 +1,23 @@
+{
+  "name": "backend-prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.0",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.2.2",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0"
+  }
+}
